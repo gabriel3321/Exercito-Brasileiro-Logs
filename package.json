@@ -1,0 +1,24 @@
+{
+  "name": "eb-roblox-logs-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot de logs do Discord integrado ao Roblox com painel admin e anticheat.",
+  "main": "start.cjs",
+  "scripts": {
+    "start": "node start.cjs",
+    "dev": "node --watch src/index.js",
+    "deploy:commands": "node scripts/deploy-commands.js",
+    "secret": "node scripts/generate-secret.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0"
+  }
+}

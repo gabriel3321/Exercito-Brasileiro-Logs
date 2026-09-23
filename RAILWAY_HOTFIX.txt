@@ -1,0 +1,9 @@
+HOTFIX RAILWAY
+
+1. Envie TODOS os arquivos desta pasta para a raiz do repositório GitHub.
+2. Substitua o package.json antigo.
+3. Confirme que start.cjs aparece na raiz do GitHub.
+4. Railway deve usar: npm start
+
+O start.cjs procura automaticamente src/index.js mesmo se o projeto tiver sido colocado uma pasta abaixo.
+Se src/index.js não existir em lugar nenhum, ele imprime no log a estrutura de arquivos que o Railway recebeu.

@@ -1,0 +1,18 @@
+GITHUB: envie TODO o conteudo desta pasta para a RAIZ do repositorio.
+
+A raiz do repositorio precisa mostrar diretamente:
+- package.json
+- railway.json
+- src/
+- scripts/
+- roblox/
+- README.md
+- .gitignore
+- .env.example
+
+NAO envie .env nem token do Discord.
+
+O arquivo obrigatorio para o Railway iniciar e:
+src/index.js
+
+Se no GitHub voce nao consegue abrir src/index.js, o deploy vai falhar com MODULE_NOT_FOUND.
